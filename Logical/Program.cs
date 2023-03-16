@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LogicalPrograms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,11 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
-            Fibbonaci.series();
+            //Fibonacci.series();
+            //Perfect.numbers();
+            //Reverse.number();
+            //Prime.number();
+            Coupons.Generatingnumbers();
         }
     }
 }

@@ -8,7 +8,7 @@ namespace ConsoleApp1
 {
     public class Perfect
     {
-        public static void number()
+        public static void numbers()
         {
             int n, i, sum;
             int min, max;
