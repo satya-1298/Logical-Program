@@ -8,23 +8,23 @@ namespace ConsoleApp1
 {
     public class Perfect
     {
-        public static void number()
+        public static void numbers()
         {
             int n, i, sum;
             int min, max;
             Console.WriteLine("Finding the Perfect number with in the given range");
             Console.WriteLine("Input starting range");
-            min=int.Parse(Console.ReadLine());
+            min = int.Parse(Console.ReadLine());
             Console.WriteLine("Input ending range");
-            max=int.Parse(Console.ReadLine());
-            for (n=min;n<=max;n++)
+            max = int.Parse(Console.ReadLine());
+            for (n = min; n <= max; n++)
             {
                 i = 1;
                 sum = 0;
-                while (i < n) 
+                while (i < n)
                 {
-                    if (n%i==0)
-                    sum=sum+i;
+                    if (n % i == 0)
+                        sum = sum + i;
                     i++;
 
                 }
